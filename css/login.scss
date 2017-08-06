@@ -159,7 +159,7 @@ animation-delay:0.5s;}
 .regbt{margin-top:fs(52);}
 /* 主页 */
 .indexbg{
-	@include wh(fs(640),fs(980));
+	@include wh(fs(640),fs(1100));
 	@include bg("indexbg.jpg",auto,100%);
 	margin:0 auto;
 	padding-top:fs(34);
@@ -219,8 +219,8 @@ animation-delay:0.5s;}
 	position:absolute;
 	left:50%;
 	margin-left:fs(231);
-	top:50%;
-	margin-top:fs(110);
+	
+	top:fs(591);
 	-webkit-tap-highlight-color:transparent;
 
 	img{
